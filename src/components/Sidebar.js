@@ -5,6 +5,7 @@ function SideBar() {
 
     function toggleSideBar() {
         document.getElementById('sideBar').classList.toggle('active');
+        console.log('sidebar')
     }
 
     return(

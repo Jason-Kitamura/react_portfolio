@@ -5,7 +5,8 @@ function Header() {
 
     return(
         <nav class=" header navbar">
-            <p>Jason Kitamura</p>
+            <h1><p>Jason Kitamura</p></h1>
+            {/* <p>Jason Kitamura</p> */}
         </nav>
     )
 }
