@@ -1,4 +1,5 @@
 import React, {} from 'react';
+import { Link } from "react-router-dom";
 import '../../App.css'
 
 import ProfilePic from '../../assets/ProPic4.png'
@@ -19,6 +20,10 @@ import Project3 from '../../assets/projects/Realtor.JPG'
 
 
 function HomePage() {
+
+    const white = {
+        color : 'whitesmoke',
+    }
 
     return(
         <div class='container'>
@@ -47,7 +52,7 @@ function HomePage() {
                 </div>
             </div>
             <div class='showBox'>
-                <h5 class='boxTitle'>Coding Projects</h5>
+                <h5 class='boxTitle'><Link to='/projects' style={white}>Coding Projects</Link></h5>
                 <div class='row boxRow'>
                     <div class='col-md-4'>
                          <img class='image' src={Project1} alt='placeholder'/>
@@ -64,7 +69,7 @@ function HomePage() {
                 </div>
             </div>
             <div class='showBox'>
-                <h5 class='boxTitle'>Art Portfolio</h5>
+                <h5 class='boxTitle'><Link to='/projects' style={white}>Art Portfolio</Link></h5>
                 <div class='row boxRow'>
                     <div class='col-md-4'>
                          <img class='image' src={Pic1} alt='placeholder'/>
@@ -81,7 +86,7 @@ function HomePage() {
                 </div>
             </div>
             <div class='showBox'>
-                <h5 class='boxTitle'>Photo Gallery</h5>
+                <h5 class='boxTitle'><Link to='/gallery' style={white}>Gallery</Link></h5>
                 <div class='row boxRow'>
                     <div class='col-md-4'>
                          <img class='image' src={Photo1} alt='placeholder'/>

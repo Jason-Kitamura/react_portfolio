@@ -1,0 +1,99 @@
+#projectBox {
+    width : 80%;
+    height : 800px;
+    background-color: rgba(19, 19, 20, 0.904);
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
+    border-top: 2px solid rgba(100, 100, 100, 0.3);
+    border-left: 2px solid rgba(100, 100, 100, 0.3);
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin: auto;
+    margin-bottom: 200px;
+    color : whitesmoke;
+}
+#projectRow {
+    margin: 0;
+    height : 100%
+}
+#screen{
+    margin : 10px;
+    width : 100%;
+    height : 100%
+}
+#screen img {
+    width: 100%;
+}
+#projectInfo {
+    margin : 10px
+}
+#projectList {
+    border-left: 3px solid rgba(100, 100, 100, 0.3);
+    height : 100%;
+    padding: 0;
+    overflow:auto; overflow-y:scroll;
+}
+#projectList::-webkit-scrollbar {
+width: 5px;
+}
+
+#projectList::-webkit-scrollbar-track {
+box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+#projectList::-webkit-scrollbar-thumb {
+background-color: rgb(206, 148, 74);
+border-radius: 10px;
+}
+#list {
+    margin : 0;
+}
+.thumbnail {
+    width : 100%;
+    padding: 5px;
+    text-align: left;
+
+}
+.thumbnail:hover {
+    background-color: rgba(100, 100, 100, 0.3) ;
+    cursor: pointer;
+}
+.thumbPic {
+    margin: 10px 0 0 0;
+}
+.thumbPic img {
+    display: block;
+    margin: auto;
+    width : 90%;
+}
+.thumbInfo {
+    display: block;
+    margin: auto;
+    width: 80%;
+    border-bottom: 2px solid rgba(100, 100, 100, 0.3);
+
+    
+}
+.gitIcon {
+    float : right;
+    margin-right : 20px;
+    color: whitesmoke;
+    position: relative;
+}
+.gitIcon .githubHover {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    color : black;
+    width : max-content;
+    padding : 2px;
+    border : solid black thin;
+}
+.gitIcon:hover .githubHover {
+    visibility: visible;
+    position: absolute;
+    z-index: 1;
+}
