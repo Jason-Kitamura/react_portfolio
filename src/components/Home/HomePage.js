@@ -52,7 +52,7 @@ function HomePage() {
                 </div>
             </div>
             <div class='showBox'>
-                <h5 class='boxTitle'><Link to='/projects' style={white}>Coding Projects</Link></h5>
+                <h5 class='boxTitle'><Link to='/projects/count-on-me' style={white}>Coding Projects</Link></h5>
                 <div class='row boxRow'>
                     <div class='col-md-4'>
                          <img class='image' src={Project1} alt='placeholder'/>

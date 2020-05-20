@@ -23,7 +23,7 @@ function SideBar() {
                         Home
                     </li>
                 </Link>
-                <Link to="/projects" style={white} >
+                <Link to="/projects/count-on-me" style={white} >
                     <li>
                         Coding Projects
                     </li>
