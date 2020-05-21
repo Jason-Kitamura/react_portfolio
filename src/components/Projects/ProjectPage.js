@@ -33,34 +33,13 @@ function ProjectPage() {
             <div id='projectBox'>
                 <div class='row' id='projectRow'>
                  
-                        <Switch>
-                            <Route  path={["/projects/chess"]} component={Chess} />
-                            <Route  path={["/projects/my-realtor"]} component={MyRealtor} />
-                            <Route  path={["/projects/farmers-friend"]} component={FarmerFriend} />
-                            <Route  path={["/projects/count-on-me"]} component={CountOnMe} />
-                        </Switch>
+                    <Switch>
+                        <Route  path={["/projects/chess"]} component={Chess} />
+                        <Route  path={["/projects/my-realtor"]} component={MyRealtor} />
+                        <Route  path={["/projects/farmers-friend"]} component={FarmerFriend} />
+                        <Route  path={["/projects/count-on-me"]} component={CountOnMe} />
+                    </Switch>
                
-                    {/* <div class='col-md-9' id='display'>
-                        <div class='row' id='projectScreen'>
-                            <div id='screen'>
-                                <img src={COM} alt='Count on-Me'></img>
-                            </div>
-                        </div>
-                        <div class='row' >
-                            <div id='projectInfo'>
-                                <h3>
-                                    Count on-Me
-                                    <a href='https://github.com/Jason-Kitamura/Count-on-Me' target='_blank'>
-                                        <i class='fab fa-github  fa-2x gitIcon'>
-                                            <span class='githubHover'>Github Link</span>
-                                        </i>
-                                    </a>
-                                </h3>
-                                <a href='https://goaltracke.herokuapp.com/'><p>https://goaltracke.herokuapp.com/</p></a>
-                                <p>Count on-Me is a robust and comprehensive smart goal setting software program that helps you set, track and share goals build habits, and interact with a social network of users. Count on-Me helps users acheive their goals and increase their productivity by adding the element of accountability with a news feed of other user's progress.</p>
-                            </div>
-                        </div>
-                    </div> */}
                     <div class='col-md-3' id='projectList'>
                         <h3 >Project List</h3>
                         <div class='list'>

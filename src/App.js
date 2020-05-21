@@ -4,6 +4,8 @@ import Header from './components/Header';
 import SideBar from './components/Sidebar'
 import HomePage from './components/Home/HomePage'
 import ProjectPage from './components/Projects/ProjectPage'
+import ArtPage from './components/Art/ArtPage'
+import GalleryPage from './components/Gallery/GalleryPage'
 import Footer from './components/Footer'
 import Background from './components/Background'
 
@@ -20,6 +22,10 @@ function App() {
         <SideBar/>
         <Footer/>
         <Route path={["/projects"]} component={ProjectPage} />
+        <Route path={["/portfolio"]} component={ArtPage} />
+        <Route path={["/gallery"]} component={GalleryPage} />
+
+
         <Route exact path={["/", "/home"]} component={HomePage} />
 
       </Router>

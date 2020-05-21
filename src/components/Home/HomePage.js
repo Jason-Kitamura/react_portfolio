@@ -69,7 +69,7 @@ function HomePage() {
                 </div>
             </div>
             <div class='showBox'>
-                <h5 class='boxTitle'><Link to='/projects' style={white}>Art Portfolio</Link></h5>
+                <h5 class='boxTitle'><Link to='/portfolio' style={white}>Art Portfolio</Link></h5>
                 <div class='row boxRow'>
                     <div class='col-md-4'>
                          <img class='image' src={Pic1} alt='placeholder'/>
