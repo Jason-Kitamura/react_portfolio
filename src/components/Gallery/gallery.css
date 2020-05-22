@@ -67,8 +67,18 @@
 
 }
 .css-1cm5myo {
-    max-height : 500px
+    max-height : 500px !important
 }
+.react-images__track {
+    height: 500px;
+    width: 200px;
+}
+/* .react-images__frame{
+    max-height: 400px;
+    width: 400px;
+    display: block;
+    margin: auto;
+} */
 .title {
     padding: 10px 0 0 0px;
     margin-left: 30px;

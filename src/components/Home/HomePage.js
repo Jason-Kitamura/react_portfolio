@@ -36,7 +36,7 @@ function HomePage() {
                     <a href='https://github.com/Jason-Kitamura' target='_blank'><i class='fab fa-github fa-2x' ></i></a>
                 </div>
                 <div class='row'>
-                    <a href='https://www.instagram.com/jasonkitamura/' target='_blank'><i class='fab fa-instagram fa-2x' ></i></a>
+                    <a href='https://www.instagram.com/jace_artport/' target='_blank'><i class='fab fa-instagram fa-2x' ></i></a>
                 </div>
             </div>
             <div id='info'>

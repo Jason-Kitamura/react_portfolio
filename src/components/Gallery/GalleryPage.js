@@ -7,7 +7,7 @@ function GalleryPage() {
 
     return(
         <div>
-            <h1 class='header'><p>PhotoGallery</p></h1>
+            <h1 class='header'><p>Photo Gallery</p></h1>
             <div class='container' id='box'>
                 <div class='row'>
                     <div id='masonry'>
