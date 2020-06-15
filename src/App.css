@@ -48,12 +48,19 @@ body::-webkit-scrollbar-thumb {
 }
 .toggle-btn {
     position: absolute;
-    left : 230px;
+    left : 20px;
     top : 20px;
     border : none;
     background-color: none;
     background: none;
     color: whitesmoke;
+    z-index: 100;
+}
+#sideBarExit {
+    z-index: 100;
+    color: whitesmoke;
+    float: right;
+    padding: 10px;
 }
 #background {
     background-image: url('./assets/toronto.jpg');

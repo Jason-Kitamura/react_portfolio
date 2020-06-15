@@ -15,35 +15,42 @@ function SideBar() {
     }
 
     return(
-        <div id='sideBar'>
-        <button class='toggle-btn' onClick={toggleSideBar}><i class='fa fa-bars fa-2x'></i></button>
-            <ul className='sideList'>
-                <Link to="/home" style={white} >
-                    <li>
-                        Home
-                    </li>
-                </Link>
-                <Link to="/projects/count-on-me" style={white} >
-                    <li>
-                        Coding Projects
-                    </li>
-                </Link>
-                <Link to="/portfolio" style={white} >
-                    <li>
-                        Art Portfolio
-                    </li>
-                </Link>
-                <Link to="/gallery" style={white} >
-                    <li>
-                        Photo Gallery
-                    </li>
-                </Link>
-                <Link to="/home" style={white} >
-                    <li>
-                        Contact
-                    </li>
-                </Link>
-            </ul>
+        <div>
+
+            <button class='toggle-btn' onClick={toggleSideBar}><i class='fa fa-bars fa-2x'></i></button>
+
+            <div id='sideBar'>
+                <i class='fa fa-times fa-2x ' id='sideBarExit' onClick={toggleSideBar}></i>
+
+                <ul className='sideList'>
+              
+                    <Link to="/home" onClick={toggleSideBar} style={white} >
+                        <li>
+                            Home
+                        </li>
+                    </Link>
+                    <Link to="/projects/count-on-me" onClick={toggleSideBar} style={white} >
+                        <li>
+                            Coding Projects
+                        </li>
+                    </Link>
+                    <Link to="/portfolio" onClick={toggleSideBar} style={white} >
+                        <li>
+                            Art Portfolio
+                        </li>
+                    </Link>
+                    <Link to="/gallery" onClick={toggleSideBar} style={white} >
+                        <li>
+                            Photo Gallery
+                        </li>
+                    </Link>
+                    {/* <Link to="/home" style={white} >
+                        <li>
+                            Contact
+                        </li>
+                    </Link> */}
+                </ul>
+            </div> 
         </div>
     )
 }
